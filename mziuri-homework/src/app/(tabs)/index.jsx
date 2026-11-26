@@ -1,11 +1,11 @@
-import { useState } from "react";
 import { Link } from "expo-router";
-import { SafeAreaView } from "react-native-safe-area-context";
+import { useState } from "react";
 import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
-import ItemForm from "./components/ItemForm";
-import ItemList from "./components/ItemList";
-import { styles } from "./styles/items";
+import ItemForm from "../../components/ItemForm";
+import ItemList from "../../components/ItemList";
+import { styles } from "../../styles/items";
 
 export default function Index() {
   const [items, setItems] = useState([]);
